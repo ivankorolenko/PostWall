@@ -20,15 +20,16 @@ export default class App extends React.Component {
 
         this.state = {
             data: [
-                {label: "Going to learn React", important: true, like: false, id: 1},
-                {label: "Continue learning", important: false, like: false, id: 2},
-                {label: "Almost finished", important: false, like: false, id: 3}
+                {label: "Going to learn React", important: false, like: false, id: 1},
+                {label: "Continue learning", important: true, like: false, id: 2},
+                {label: "Almost finished", important: true, like: false, id: 3},
+                {label: "Finished", important: true, like: false, id: 4}
             ],
             term: '',
             filter: 'all'
         };
 
-        this.maxId = 4;
+        this.maxId = 5;
 
         this.deleteItem = this.deleteItem.bind(this);
         this.addItem = this.addItem.bind(this);
@@ -52,7 +53,7 @@ export default class App extends React.Component {
     addItem(body) {
         const newItem = {
             label: body,
-            important: false,
+            important: true,
             like: false,
             id: this.maxId++
         };
