@@ -147,6 +147,8 @@ export default class App extends React.Component {
                     onToggleLiked={this.onToggleLiked}/>
                 <PostAddForm
                     onAdd={this.addItem}/>
+                <br />
+                <br />
             </AppBlock>
         )
     }
