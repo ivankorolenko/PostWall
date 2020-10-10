@@ -1,20 +1,18 @@
-## Small React App based on series of Ice And Fire
+## Simple interactive application imitating wall of posts
 
-<div>
-    <img src="./screenshots/screenshot-1.png" />
-    <img src="./screenshots/screenshot-2.png" />
-</div>
+<img src="./screenshot.png" />
 
 <br />
 
-The application fetches info about characters, houses and books from [An API of Ice And Fire](https://www.anapioficeandfire.com/).
+The application allows to create new posts and remove existing items. <br />
+Click the text of some post to mark it as "liked" &#x2764;&#xfe0f;.
 
-You are welcome to see the builded version at [GitPages](https://ivankorolenko.github.io/GameOfTrones__React/).
+You are welcome to see the builded version at [GitPages](https://ivankorolenko.github.io/PostWall___React/).
 
 You also can clone this repository, install associated packages and run the application by the next commands:
 
-#### `$ git clone https://github.com/ivankorolenko/GameOfTrones__React.git GameOfTrones__React`
-#### `$ cd GameOfTrones__React`
+#### `$ git clone https://github.com/ivankorolenko/PostWall___React.git PostWall___React`
+#### `$ cd PostWall___React`
 #### `$ npm install`
 #### `$ npm start`
 
