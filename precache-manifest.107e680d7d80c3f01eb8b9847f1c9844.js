@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7ee2b0c2769ba40197255e97a4784bf7",
+    "revision": "36a20768d7097380bbdb40272160592b",
     "url": "/PostWall___React/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PostWall___React/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "f952414bfe67cf13dcf0",
-    "url": "/PostWall___React/static/css/main.d9e6a227.chunk.css"
+    "revision": "373b85f554ef9ef6e5bb",
+    "url": "/PostWall___React/static/css/main.f90183d5.chunk.css"
   },
   {
     "revision": "5a47c16e7fb30aa3f491",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PostWall___React/static/js/2.b925ec25.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f952414bfe67cf13dcf0",
-    "url": "/PostWall___React/static/js/main.a7505aae.chunk.js"
+    "revision": "373b85f554ef9ef6e5bb",
+    "url": "/PostWall___React/static/js/main.756b6e29.chunk.js"
   },
   {
     "revision": "438dfbd7d62d8ce78269",
