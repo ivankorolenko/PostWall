@@ -20,16 +20,18 @@ export default class App extends React.Component {
 
         this.state = {
             data: [
-                {label: "Going to learn React", important: false, like: false, id: 1},
-                {label: "Continue learning", important: true, like: false, id: 2},
-                {label: "Almost finished", important: true, like: false, id: 3},
-                {label: "Finished", important: true, like: false, id: 4}
+                {label: "Пользователь может добавлять новые записи", important: false, like: false, id: 1},
+                {label: "Нажатие на корзину удаляет запись", important: true, like: false, id: 2},
+                {label: "Можно помечать записи звёздочкой как важные", important: true, like: true, id: 3},
+                {label: "Клик по тексту записи ставит лайк", important: true, like: true, id: 4},
+                {label: '"Поиск" отфильтровывает записи по ходу ввода запроса', important: true, like: false, id: 5},
+                {label: "Можно отфильтровать понравившиеся записи", important: true, like: true, id: 6}
             ],
             term: '',
             filter: 'all'
         };
 
-        this.maxId = 5;
+        this.maxId = 7;
 
         this.deleteItem = this.deleteItem.bind(this);
         this.addItem = this.addItem.bind(this);
