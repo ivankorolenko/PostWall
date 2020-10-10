@@ -4,7 +4,7 @@
 
 <br />
 
-The application allows to create new posts and remove existing items. <br /><br />
+The application allows to create new posts and remove existing items. <br />
 
 Interaction with the application:
 - click the star-icon to mark the relevant as "important":<br />
