@@ -5,7 +5,10 @@
 <br />
 
 The application allows to create new posts and remove existing items. <br /><br />
+
+Click the star-icon to mark the relevant as "important".
 Click the text of some post to mark it as "liked" &#x2764;&#xfe0f;.
+Click the bascket-icon to remove the relevant post.
 
 You are welcome to see the builded version at [GitPages](https://ivankorolenko.github.io/PostWall___React/).
 
